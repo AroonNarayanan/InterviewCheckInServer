@@ -1,0 +1,68 @@
+{
+  "name": "applicant",
+  "plural": "applicants",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "LastName": {
+      "type": "string",
+      "required": true
+    },
+    "PreferredName": {
+      "type": "string"
+    },
+    "TotalCoursesServed": {
+      "type": "number"
+    },
+    "EmailAddress": {
+      "type": "string"
+    },
+        "PhoneNumber": {
+      "type": "string"
+    },
+    "Session1Available": {
+      "type": "boolean"
+    },
+    "Session2Available": {
+      "type": "boolean"
+    },
+    "Session3Available": {
+      "type": "boolean"
+    },
+    "Session4Available": {
+      "type": "boolean"
+    },
+    "Session5Available": {
+      "type": "boolean"
+    },
+    "Session1Preference": {
+      "type": "number"
+    },
+    "Session2Preference": {
+      "type": "number"
+    },
+    "Session3Preference": {
+      "type": "number"
+    },
+    "Session4Preference": {
+      "type": "number"
+    },
+    "Session5Preference": {
+      "type": "number"
+    },
+    "Registered": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,12 @@
+{
+  "mongo": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://api:interview@ds044587.mlab.com:44587/interview-checkin",
+    "database": "",
+    "password": "",
+    "name": "mongo",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
